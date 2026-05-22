@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>form表单对齐</title>
+</head>
+<style>
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+</style>
+<body>
+<form>
+  <div class="form-item">
+    <label>用户名</label>
+    <input type="text">
+  </div>
+  <div class="form-item">
+    <label>密码</label>
+    <input type="password">
+  </div>
+</form>
+</body>
+</html>
