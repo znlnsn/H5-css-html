@@ -1,0 +1,92 @@
+Flex
+display:flex竖着图片变横
+Flex是Flexible Box的缩写，意为"弹性布局"，用来为盒状模型提供最大的灵活性。设为Flex布局以后，子元素的float、clear和vertical-align属性将失效。
+flex-direction:row; 沿水平主轴让元素从左向右排列
+flex-direction:column; 让元素沿垂直主轴从上到下垂直排列
+ 
+Float浮动
+float 属性定义元素在哪个方向浮动。以往这个属性总应用于图像，使文本围绕在图像周围，不过在 CSS 中，任何元素都可以浮动。浮动元素会生成一个块级框，而不论它本身是何种元素。
+left元素向左浮动。right元素向右浮动。none默认值。元素不浮动，并会显示在其在文本中出现的位置。inherit规定应该从父元素继承 float 属性的值。
+ 
+如果浮动非替换元素，则要指定一个明确的宽度；否则，它们会尽可能地窄。
+ 
+Filter过滤
+将模糊或颜色偏移等图形效果应用于元素。滤镜通常用于调整图像，背景和边框的渲染。
+filter: blur(5px);
+filter: brightness(0.4);
+filter: contrast(200%);
+filter: drop-shadow(16px 16px 20px blue);
+filter: grayscale(50%);
+filter: hue-rotate(90deg);
+filter: invert(75%);
+filter: opacity(25%);
+filter: saturate(30%);
+filter: sepia(60%);
+ 
+/* Multiple filters */
+filter: contrast(175%) brightness(3%);
+ 
+/* Global values */
+filter: inherit;
+filter: initial;
+filter: unset;
+ 
+G
+Grid格线
+H
+Hover
+:hover 选择器用于选择鼠标指针浮动在上面的元素。
+提示：:hover 选择器可用于所有元素，不只是链接
+ 
+I
+Inherit继承
+ 
+J
+K
+L
+M
+Margin
+Margin居中 上右下左   上下  左右
+Margin 0 auto   0位置不变左右居中
+ 
+N
+O
+Opacity透明度
+value规定不透明度。从 0.0 （完全透明）到 1.0（完全不透明）。测试inherit应该从父元素继承 opacity 属性的值。 
+ 
+ 
+P
+Q
+R
+S
+T
+transform转换, 改造, 转变
+transform 属性向元素应用 2D 或 3D 转换。该属性允许我们对元素进行旋转、缩放、移动或倾斜。
+transform: translate(-50%,-50%);
+旋转rotate
+平移translate
+伸缩scale
+形变skew
+ 
+U
+V
+Visibility
+visibility 属性规定元素是否可见。
+提示：即使不可见的元素也会占据页面上的空间。请使用 "display" 属性来创建不占据页面空间的不可见元素。
+说明
+这个属性指定是否显示一个元素生成的元素框。这意味着元素仍占据其本来的空间，不过可以完全不可见。值 collapse 在表中用于从表布局中删除列或行。
+ 
+visible默认值。元素是可见的。hidden元素是不可见的。collapse当在表格元素中使用时，此值可删除一行或一列，但是它不会影响表格的布局。被行或列占据的空间会留给其他内容使用。如果此值被用在其他的元素上，会呈现为 "hidden"。inherit规定应该从父元素继承 visibility 属性的值。
+ 
+W
+X
+Y
+Z
+ 
+Placeholder=输入框内的内容
+Border能显示框的大小只有height和width看不出大小
+Text-align文本居中
+Padding内边距 与外框的距离
+Body Background :url(图片地址)  插入图片
+Bdckground-repeat:no-repeat 不重复
+Background-size:100% 100% 那边短就设那边auto
